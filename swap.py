@@ -1,4 +1,5 @@
-#taking inputs
+#swaping to numbers
+                                        #taking inputs
 a=int(input("enter the first number"))
 print("First number is = ",a)
 
