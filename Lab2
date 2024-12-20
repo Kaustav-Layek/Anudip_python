@@ -1,0 +1,18 @@
+import math
+# sides of the triangle
+firstSide=int(input("Enter the length of the first side: "))
+secondSide=int(input("Enter the length of the second side: "))
+thirdSide=int(input("Enter the length of the third side: "))
+#calculating the half perimeter
+half_perimeter=float((firstSide+secondSide+thirdSide)/2)
+#calculating area
+area=math.sqrt(half_perimeter*(half_perimeter-firstSide)*(half_perimeter-secondSide)*(half_perimeter-thirdSide))
+#printing area of the triangle
+print("The area of the triangle is : ",area)
+
+
+
+#celcius to farenhite
+celcius_temperature=float(input("enter the celcius temperature"))
+farenhite_temperature=(celcius_temperature*9/5)+32
+print("the temperature in farenhite is : ",farenhite_temperature)
