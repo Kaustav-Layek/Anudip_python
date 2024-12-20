@@ -1,3 +1,6 @@
+
+#calculating the area of a triangle
+
 import math
 # sides of the triangle
 firstSide=int(input("Enter the length of the first side: "))
